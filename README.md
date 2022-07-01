@@ -2,6 +2,8 @@
 
 A bridge between snapcast's websocket and an MQTT instance
 
+It's basically forwarding between WebSocket and MQTT all the messages without any processing. This allows easy Snapcast control over MQTT.
+
 ### Build
 
 ```sh
