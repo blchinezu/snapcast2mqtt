@@ -22,5 +22,12 @@ MQTT_IP=192.168.0.xxx
 ### Run
 
 ```sh
-./snapcast2mqtt
+#!/bin/bash
+
+while [ true ]; do
+  ./snapcast2mqtt
+
+  echo " > Service stopped, restarting in 5 seconds..."
+  sleep 5s
+done
 ```
